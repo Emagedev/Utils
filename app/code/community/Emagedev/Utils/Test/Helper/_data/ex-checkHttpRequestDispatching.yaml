@@ -1,0 +1,12 @@
+c0:
+  code: 200
+  body: 'Test Message'
+  content_type: 'text/html'
+  error: -
+c1:
+  code: 404
+  body: 'Not Found'
+  content_type: 'text/html'
+  error: -
+c2:
+  error: 'Invalid HTTP response, cannot fetch status'

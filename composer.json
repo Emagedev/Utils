@@ -1,0 +1,25 @@
+{
+  "name": "emagedev/utils",
+  "description": "Useful Utils and Fixes for Magento™ 1.9 for Emagedev Modules",
+  "type": "magento-module",
+  "license": "BSD-3-Clause",
+  "version": "0.1.0",
+  "authors": [
+    {
+      "name": "Dmitry Burlakov",
+      "email": "dantaeusb@icloud.com"
+    }
+  ],
+  "require": {
+    "magento-hackathon/magento-composer-installer": "*"
+  },
+  "require-dev": {
+    "ecomdev/ecomdev_phpunit": "*"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/Emagedev/Utils.git"
+    }
+  ]
+}

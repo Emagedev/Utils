@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Emagedev_Utils>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends>
+                <Mage_Core />
+            </depends>
+        </Emagedev_Utils>
+    </modules>
+</config>

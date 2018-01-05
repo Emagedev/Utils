@@ -1,0 +1,9 @@
+c0:
+  response: "HTTP/1.1 200 OK\r\nContent-Type: text/html\r\nContent-Length: 12\r\nConnection: keep-alive\r\nAccess-Control-Allow-Origin: *\r\nDate: Tue, 17 Oct 2017 17:04:15 GMT\r\nReferrer-Policy: no-referrer\r\nServer: Apache\r\n\r\nTest Message"
+  error: -
+c1:
+  response: 'HTTP/1.1 404 Not Found\r\nContent-Type: text/html\r\nContent-Length: 12\r\nConnection: keep-alive\r\nAccess-Control-Allow-Origin: *\r\nDate: Tue, 17 Oct 2017 17:04:15 GMT\r\nReferrer-Policy: no-referrer\r\nServer: Apache\r\n\r\nNot Found'
+  error: -
+c2:
+  response: 'Test error exception'
+  error: +
