@@ -1,5 +1,3 @@
 app/code/community/Emagedev/Utils app/code/community/Emagedev/Utils
 app/etc/modules/Emagedev_Utils.xml app/etc/modules/Emagedev_Utils.xml
-app/locale/en_US/Emagedev_Utils.csv app/locale/en_US/Emagedev_Utils.csv
-app/locale/ru_RU/Emagedev_Utils.csv app/locale/ru_RU/Emagedev_Utils.csv
 LICENSE app/code/community/Emagedev/Utils/LICENSE
