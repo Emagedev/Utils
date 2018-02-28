@@ -65,8 +65,8 @@ class Emagedev_Utils_Helper_Curl extends Mage_Core_Helper_Abstract
         list($code, $status) = $this->dispatchHttpStatus(array_shift($headers));
         $headers = $this->dispatchHeaders($headers);
 
-        /** @var Omedrec_Welcome_Model_Curl_Response $responseObject */
-        $responseObject = Mage::getModel('omedrec_welcome/curl_response');
+        /** @var Emagedev_Utils_Model_Curl_Response $responseObject */
+        $responseObject = Mage::getModel('emagedev_utils/curl_response');
 
         return $responseObject->setData(
             array(

@@ -31,6 +31,11 @@
                 <class>Emagedev_Utils_Helper</class>
             </emagedev_utils>
         </helpers>
+        <models>
+            <emagedev_utils>
+                <class>Emagedev_Utils_Model</class>
+            </emagedev_utils>
+        </models>
     </global>
     <phpunit>
         <suite>
